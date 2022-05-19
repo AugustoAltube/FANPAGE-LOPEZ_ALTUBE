@@ -144,11 +144,15 @@ transform: scale(1.15);
 .footer a:hover {
 transform: scale(1.15);
 }
+
 .integrantes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.centrar_boton {
+    text-align: center;
 }
 .integrantes section {
     height: auto;
