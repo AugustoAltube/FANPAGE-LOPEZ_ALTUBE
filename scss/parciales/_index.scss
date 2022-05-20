@@ -1,0 +1,108 @@
+.index__body {
+    background-color: rgba(22,22,22,255);
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: 1 , 1 , 1 , 1 , 1;
+    grid-template-areas: 'espacio1'
+                         'espacio2'
+                         'espacio3'
+                         'espacio4'
+                         'espacio5';  
+}
+
+.index__header {
+    display: flex;
+    justify-content: center;
+    transform: translate(-30px);
+    grid-area:espacio1;
+}   
+
+.index__decoracion {
+    color: grey;
+    font-size: 60px;
+    text-align: center;
+    grid-area: espacio2;
+}
+
+.index__main {
+    grid-area: espacio3;
+}
+
+.index__decoracion2 {
+    color: grey;
+    font-size: 60px;
+    text-align: center;
+    grid-area: espacio4;
+}
+
+.index__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-area: espacio5;
+
+    & a {
+        margin-right: 5px;
+        margin-left: 5px;
+        transition: 2s;
+    }
+
+    & a:hover {
+        transform: scale(1.15);
+        }
+}
+
+.logo {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+
+    &__img{
+        transition: 2s;
+        width: 200px
+    }
+
+    &__img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.titulo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    font-size: 71px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.frase {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: 'Akshar', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

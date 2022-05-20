@@ -1,0 +1,137 @@
+@media screen and (max-width:910px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 5;
+    }
+    .decoracion {
+        align-self: center;
+    }
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-top: 0px;
+        
+    }
+    .frase {
+        margin-bottom: 0pc;
+    }
+    .decoracion {
+        font-size: 40px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .logo__img {
+        width: 175px;
+    }
+    .header {
+        font-size: 15px;
+    }
+    .integrantes section img {
+        max-width: 150px;
+    }
+    .integrantes section {
+        width: 80%;
+    }
+    .tienda section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5;
+    }
+    .discos section {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 645.98px){
+    .header {
+        min-width: 100%;
+    }
+    .header__link {
+        font-size: 12px;
+    }
+    .header__item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+    .header__lista {
+        margin-top: 20px;
+    }
+    .integrantes section img {
+        max-width: 100px;
+    }
+    .integrantes section p {
+        font-size: 12px;
+    }
+    .integrantes section h1 {
+        font-size: 30px;
+    }
+    .integrantes section {
+        width: 80%;
+    }
+    .historia section {
+        font-size: 12px;
+    }
+    .historia section h2{
+        font-size: 14px;
+    }
+}
+@media (max-width: 500.98px){
+    .body {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 5;
+    }
+    .header__item {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 3px;
+    }
+    .header__link {
+        font-size: 12px;
+    }
+    .logo__img {
+        width: 100px;
+    }
+    .titulo {
+        font-size: 40px;
+    }
+    .frase {
+        font-size: 15px;
+    }
+    .header__lista {
+        flex-direction: column;
+        align-items: center;
+        transform: translate(10px);
+        margin-bottom: 10px;
+
+    }
+    .integrantes section h1 {
+        font-size: 20px;
+    }
+    .integrantes section p {
+        font-size: 10px;
+    }
+    .integrantes section img {
+        max-width: 70px;
+        margin: 5px;
+    }
+    .integrantes section {
+        width: 80%;
+    }
+    .tienda section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 9;
+    }
+    .producto {
+        width: 60%;
+    }
+}
+

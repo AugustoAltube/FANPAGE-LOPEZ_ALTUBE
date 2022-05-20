@@ -1,0 +1,531 @@
+.index__body {
+  background-color: #161616;
+  display: grid;
+  grid-template-columns: repeat(1);
+  grid-template-rows: 1 , 1 , 1 , 1 , 1;
+  grid-template-areas: 'espacio1' 'espacio2' 'espacio3' 'espacio4' 'espacio5';
+}
+
+.index__header {
+  display: flex;
+  justify-content: center;
+  transform: translate(-30px);
+  grid-area: espacio1;
+}
+
+.index__decoracion {
+  color: grey;
+  font-size: 60px;
+  text-align: center;
+  grid-area: espacio2;
+}
+
+.index__main {
+  grid-area: espacio3;
+}
+
+.index__decoracion2 {
+  color: grey;
+  font-size: 60px;
+  text-align: center;
+  grid-area: espacio4;
+}
+
+.index__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  grid-area: espacio5;
+}
+
+.index__footer a {
+  margin-right: 5px;
+  margin-left: 5px;
+  transition: 2s;
+}
+
+.index__footer a:hover {
+  transform: scale(1.15);
+}
+
+.logo {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo__img {
+  transition: 2s;
+  width: 200px;
+}
+
+.logo__img:hover {
+  transform: scale(1.1);
+}
+
+.titulo {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px 200px 400px;
+  grid-template-rows: 1fr;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  font-size: 71px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-family: 'Akshar', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  transform: translate(-30px);
+}
+
+.header__lista {
+  display: flex;
+}
+
+.header__lista li:hover {
+  transform: scale(1.1);
+}
+
+.header__item {
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  transition: 2s;
+}
+
+.header__link {
+  color: grey;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px;
+  transition: 2s;
+  /*text-shadow: 0 0 5px white;*/
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer a {
+  margin-right: 5px;
+  margin-left: 5px;
+  transition: 2s;
+}
+
+.footer a:hover {
+  transform: scale(1.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #161616;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 5;
+}
+
+.decoracion {
+  color: grey;
+  font-size: 60px;
+  text-align: center;
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.integrantes section {
+  height: auto;
+  width: 70%;
+  background-color: transparent;
+  border: solid gray;
+  border-radius: 16px;
+  margin: 20px;
+  color: gray;
+  overflow: hidden;
+}
+
+.integrantes section p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.integrantes section img {
+  max-width: 251px;
+  margin: 10px;
+  border: 1.5px solid gray;
+}
+
+.integrantes section h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.centrar_boton {
+  text-align: center;
+}
+
+.enrique-2 {
+  float: right;
+}
+
+.enrique-3 {
+  float: left;
+}
+
+.enrique-4 {
+  float: right;
+}
+
+.juan-1 {
+  float: left;
+}
+
+.juan-2 {
+  float: right;
+}
+
+.alan-1 {
+  float: left;
+}
+
+.alan-2 {
+  float: right;
+}
+
+.alan-3 {
+  float: left;
+}
+
+.pedro-1 {
+  float: right;
+}
+
+.pedro-2 {
+  float: left;
+}
+
+.joaquin-1 {
+  float: left;
+}
+
+.joaquin-2 {
+  float: right;
+}
+
+.joaquin-3 {
+  float: left;
+}
+
+.discos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discos section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: none;
+  height: auto;
+  width: 80%;
+  background-color: transparent;
+  border: solid gray;
+  border-radius: 16px;
+  margin: 20px;
+  color: gray;
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.discos section img {
+  max-width: 70%;
+  border: 1.5px solid gray;
+  margin: 10px;
+}
+
+.discos section ol {
+  margin-bottom: 10px;
+}
+
+.discos section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.historia section {
+  height: auto;
+  width: 80%;
+  background-color: transparent;
+  border: solid gray;
+  border-radius: 16px;
+  margin: 20px;
+  padding: 20px;
+  color: grey;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.historia section h1 {
+  font-weight: bold;
+}
+
+.historia section h2 {
+  font-weight: bold;
+}
+
+.historia section img {
+  max-width: 30%;
+  border: solid gray;
+}
+
+.banda-1 {
+  float: left;
+  margin-right: 5px;
+}
+
+.banda-2 {
+  float: right;
+  margin-left: 5px;
+}
+
+.banda-3 {
+  float: right;
+  margin-left: 5px;
+}
+
+.banda-4 {
+  float: left;
+  margin-right: 5px;
+}
+
+.banda-5 {
+  float: right;
+  margin-left: 5px;
+}
+
+.tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.tienda section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  border: solid gray;
+  border-radius: 16px;
+  margin: 20px;
+  color: gray;
+  text-align: center;
+}
+
+.tienda__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto {
+  object-fit: cover;
+  max-width: 80%;
+  border: solid gray;
+}
+
+@media screen and (max-width: 910px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 5;
+  }
+  .decoracion {
+    align-self: center;
+  }
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 0px;
+  }
+  .frase {
+    margin-bottom: 0pc;
+  }
+  .decoracion {
+    font-size: 40px;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .logo__img {
+    width: 175px;
+  }
+  .header {
+    font-size: 15px;
+  }
+  .integrantes section img {
+    max-width: 150px;
+  }
+  .integrantes section {
+    width: 80%;
+  }
+  .tienda section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5;
+  }
+  .discos section {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 645.98px) {
+  .header {
+    min-width: 100%;
+  }
+  .header__link {
+    font-size: 12px;
+  }
+  .header__item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  .header__lista {
+    margin-top: 20px;
+  }
+  .integrantes section img {
+    max-width: 100px;
+  }
+  .integrantes section p {
+    font-size: 12px;
+  }
+  .integrantes section h1 {
+    font-size: 30px;
+  }
+  .integrantes section {
+    width: 80%;
+  }
+  .historia section {
+    font-size: 12px;
+  }
+  .historia section h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500.98px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 5;
+  }
+  .header__item {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 3px;
+  }
+  .header__link {
+    font-size: 12px;
+  }
+  .logo__img {
+    width: 100px;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .frase {
+    font-size: 15px;
+  }
+  .header__lista {
+    flex-direction: column;
+    align-items: center;
+    transform: translate(10px);
+    margin-bottom: 10px;
+  }
+  .integrantes section h1 {
+    font-size: 20px;
+  }
+  .integrantes section p {
+    font-size: 10px;
+  }
+  .integrantes section img {
+    max-width: 70px;
+    margin: 5px;
+  }
+  .integrantes section {
+    width: 80%;
+  }
+  .tienda section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9;
+  }
+  .producto {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

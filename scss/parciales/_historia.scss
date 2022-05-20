@@ -1,0 +1,59 @@
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100%;
+
+    & section {
+        height: auto;
+        width: 80%;
+        background-color: transparent;
+        border: solid gray;
+        border-radius: 16px;
+        margin: 20px;
+        padding: 20px;
+        color: grey;
+        text-align: left;
+        letter-spacing: 2px;
+        font-size: 18px;
+
+        & h1 {
+            font-weight: bold
+        }
+
+        & h2 {
+            font-weight: bold
+        }
+        
+        & img {
+            max-width: 30%;
+            border: solid gray;
+        }
+    }
+}
+
+
+.banda-1 {
+    float: left;
+    margin-right: 5px;
+}
+
+.banda-2 {
+    float: right;
+    margin-left: 5px;
+}
+
+.banda-3 {
+    float: right;
+    margin-left: 5px;
+}
+
+.banda-4 {
+    float: left;
+    margin-right: 5px;
+}
+
+.banda-5 {
+    float: right;
+    margin-left: 5px;
+}

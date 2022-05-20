@@ -1,0 +1,43 @@
+.discos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        
+        height: auto;
+        width: 80%;
+        background-color: transparent;
+        border: solid gray;
+        border-radius: 16px;
+        margin: 20px;
+        color: gray;
+        overflow: hidden;
+        letter-spacing: 2px;
+        font-size: 18px;
+
+        & img {
+            max-width: 70%;
+            border: 1.5px solid gray;
+            margin: 10px;
+        }
+
+        & ol {
+        
+            margin-bottom: 10px;
+            
+        }
+
+        & div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            margin: 20px;
+        }
+    } 
+}

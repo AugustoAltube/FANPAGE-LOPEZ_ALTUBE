@@ -1,0 +1,93 @@
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & section {
+        height: auto;
+        width: 70%;
+        background-color: transparent;
+        border: solid gray;
+        border-radius: 16px;
+        margin: 20px;
+        color: gray;
+        overflow: hidden;
+
+        & p {
+            font-size: 18px;
+            letter-spacing: 2px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        & img {
+            max-width: 251px;
+            margin: 10px;
+            border: 1.5px solid gray;
+        }
+
+        & h1 {
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 2px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.centrar_boton {
+    text-align: center;
+}
+
+.enrique-2 {
+    float: right;
+}
+
+.enrique-3 {
+    float: left;
+}
+
+.enrique-4 {
+    float: right;
+}
+
+.juan-1 {
+    float: left;
+}
+
+.juan-2 {
+    float: right;
+}
+
+.alan-1 {
+    float: left;
+}
+
+.alan-2 {
+    float: right;
+}
+
+.alan-3 {
+    float: left;
+}
+
+.pedro-1{
+    float: right;
+}
+
+.pedro-2{
+    float: left;
+}
+
+.joaquin-1{
+    float: left;
+}
+
+.joaquin-2{
+    float: right;
+}
+
+.joaquin-3{
+    float: left;
+}
